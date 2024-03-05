@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80px;
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    margin-left: 20px;
+}
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+nav ul li a:hover {
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;    
+}
+    
+header {
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+  
+.hero {
+    background-image: url(talking.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    height: 75vh;
+    background-color: #eee;
+}
+
+.tagline h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+    
+.tagline p{
+    color: white;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.hero .image {
+    height: 810px;
+    width: 2000px;
+}
+  
+.hero .image img {
+    width: 100%;
+    height: 100%;
+}
+  
+.features {
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+    padding: 40px 0;
+}
+  
+.features .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.features .feature {
+    width: 30%;
+    text-align: center;
+}
+  
+.features .feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px solid #ff9900;
+}
+  
+.features .feature h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.features .feature p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100vw;
+}
+  
+.about-us .image {
+    height: 100%;
+    width: 40%;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.about-us .content {
+    width: 50%;
+}
+  
+.about-us h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+  
+.about-us p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+  
+.about-us a.read-more {
+    color: rgb(69, 56, 56);
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+.about-us a.read-more:hover {
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+  
+.services {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+  
+.services h2 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+  
+.services .service {
+    width: 60%;
+    text-align: center;
+}
+  
+.services .service img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+  
+.services .service h3 {
+    color: #333;
+}  
+
+.footer{
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+    width: 100%;
+    height: 100%;
+}
