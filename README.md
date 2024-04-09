@@ -1,2 +1,2 @@
-# CODESOFT
-This is my repository for CodeSoft Internship.
+# PROJECTS
+This is my repository for Internships.
